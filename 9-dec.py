@@ -1,5 +1,5 @@
 #first prob
-with open("input.txt") as f:
+with open("input9.txt") as f:
     lines = f.readlines()
 
 tot = 0
@@ -19,7 +19,7 @@ for i in range(len(lines)):
 print(tot)
 
 #second prob
-with open("input.txt") as f:
+with open("input9.txt") as f:
     lines = f.readlines()
 
 tot = 0

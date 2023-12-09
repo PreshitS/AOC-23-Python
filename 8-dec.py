@@ -1,4 +1,4 @@
-with open("input.txt") as f:
+with open("input8.txt") as f:
     lines = f.readlines()
 
 seq = lines[0]
@@ -24,7 +24,7 @@ while cur != 'ZZZ' and i < len(seq):
 print(count)
 
 #second_prob
-with open("input.txt") as f:
+with open("input8.txt") as f:
     lines = f.readlines()
 
 seq = lines[0]

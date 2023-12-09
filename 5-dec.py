@@ -1,5 +1,5 @@
 #first_prob
-with open("input.txt") as f:
+with open("input5.txt") as f:
     lines = f.readlines()
 
 dummy = []
@@ -12,8 +12,11 @@ while i < len(lines):
     dummy.append(arr)
     i += 1
 
-num = 940608699
-seeds = [i for i in range(115202033, 371332058)]
+seeds = lines[0].split(':')[1].split()
+seeds.pop(0)
+for i in range(len(seeds)):
+    if seeds[i] != ' ':    
+        seeds[i] = int(seeds[i])
 
 for i in range(len(seeds)):
     seeds[i] = int(seeds[i])

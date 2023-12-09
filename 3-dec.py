@@ -1,5 +1,5 @@
 #first prob
-with open('input.txt') as f:
+with open('input3.txt') as f:
     lines = f.readlines()
 
 tot = 0
@@ -73,7 +73,7 @@ def parse_input(data):
 
     return nums, syms
 
-with open("input.txt") as f:
+with open("input3.txt") as f:
     data = f.readlines()
 
 print(part2(data))

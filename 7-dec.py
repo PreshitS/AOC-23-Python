@@ -1,4 +1,4 @@
-with open("input.txt") as f:
+with open("input7.txt") as f:
     lines = f.readlines()
 
 hm = {}

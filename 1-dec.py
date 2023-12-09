@@ -1,5 +1,5 @@
 #first prob
-with open("input.txt") as f:
+with open("input1.txt") as f:
     lines = f.readlines()
 
 arr = []
@@ -38,7 +38,7 @@ mappings = {
     "nine" : 9,
 }
 
-with open("input.txt") as f:
+with open("input1.txt") as f:
     lines = f.readlines()
 
 tot = 0
@@ -48,7 +48,7 @@ for _ in lines:
         if i in _:
             res = [[j, mappings[i]] for j in range(len(_)) if _.startswith(i, j)]
             arr.extend(res)
-            print(res)
+
     arr.sort()   
     ans = int(str(arr[0][1]) + str(arr[-1][1]))   
     tot += ans

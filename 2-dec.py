@@ -1,5 +1,5 @@
 #first prob
-with open("input.txt") as f:
+with open("input2.txt") as f:
     lines = f.readlines()
 
 ans = 0
@@ -27,7 +27,7 @@ for i in lines:
 print(ans)
 
 #second prob
-with open("input.txt") as f:
+with open("input2.txt") as f:
     lines = f.readlines()
 
 ans = 0
@@ -39,7 +39,6 @@ for i in lines:
     for j in arr2:
         arr3 = j.split(",")
         res.extend(arr3)
-    print(res)
     k = 0
     freq = [1, 1, 1]
     while k < len(res):
