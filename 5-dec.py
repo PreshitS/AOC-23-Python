@@ -1,3 +1,4 @@
+#first_prob
 with open("input.txt") as f:
     lines = f.readlines()
 
@@ -7,12 +8,12 @@ while i < len(lines):
     arr = []
     while i < len(lines) and lines[i] != '\n':
         arr.append(lines[i]) 
-        i += 1
+        i += 1 
     dummy.append(arr)
     i += 1
 
-seeds = dummy[0][0].split(':')[1]
-seeds = seeds.split()
+num = 940608699
+seeds = [i for i in range(115202033, 371332058)]
 
 for i in range(len(seeds)):
     seeds[i] = int(seeds[i])
